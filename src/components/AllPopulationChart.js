@@ -44,7 +44,7 @@ function AllPopulationChart(props) {
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="year" />
                 <YAxis dataKey="value" />
-                <Tooltip />
+                <Tooltip  />
                 <Legend />
                 <Line
                     type="monotone"
